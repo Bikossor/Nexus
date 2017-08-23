@@ -114,5 +114,6 @@
 				}
 			?>
 		</table>
+        <footer><a href="https://bikossor.de">&copy; André Lichtenthäler, 2017</a></footer>
 	</body>
 </html>

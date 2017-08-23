@@ -20,10 +20,6 @@ html, body {
 }
 
 table {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
   border: 1px solid #aaa;
   border-collapse: collapse;
 }
@@ -77,4 +73,13 @@ div.modal img, div.modal video {
   background-color: #fff;
   max-width: 80%;
   max-height: 80%;
+}
+
+footer {
+  padding: 1rem;
+}
+
+footer a {
+  color: #000;
+  text-decoration: none;
 }
