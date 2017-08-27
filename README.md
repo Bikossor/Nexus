@@ -2,9 +2,15 @@
 
 ## Description ##
 - A simple and easy-to-use Nexus, written in PHP by [André Lichtenthäler](https://bikossor.de).
-- Requires PHP >= 4.0.3 (October 2000).
+- Requires PHP >= 5.1.0 (October 2000).
 
 ## Changelog ##
+### Version: 0.4.0 (August 27th, 2017)
+- [Added] Exceptions are now thrown
+- [Added] Nexus is now checking for permissions
+- [Change] Nexus is now in a class
+- [Fixed] Files on the same level in the filesystem weren't found
+
 ### Version: 0.3.0 (August 23rd, 2017)
 - [Change] Replaced ```file_puts_content()``` to ```fopen()``` for compatibility reasons
 - [Change] Cleaned up some parts
