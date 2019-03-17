@@ -3,14 +3,14 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Nexus v0.4.0</title>
-        <link rel="stylesheet" href="./core/css/stylesheet.css">
-		<script type="text/javascript" src="./core/js/sorttable.js"></script>
+        <link rel="stylesheet" href="./assets/css/stylesheet.css">
+		<script type="text/javascript" src="./assets/js/sorttable.js"></script>
 	</head>
 	<body>
 		<table class="sortable">
 			<tr><th>Filename</th><th>Size</th><th>Type</th><th>Modified at</th><th>Created at</th></tr>
 			<?php
-				include './core/libs/Nexus.php';
+				include './core/Nexus.php';
 
 				try {
 					$app = new Nexus(dirname(__FILE__));
