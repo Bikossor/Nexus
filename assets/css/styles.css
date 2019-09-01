@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a {
+    color: inherit;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    height: 32px;
+    line-height: 32px;
+    color: #fff;
+    background: #333;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: .5rem 1rem;
+}
